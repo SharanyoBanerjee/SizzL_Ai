@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SizzLAI Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <header class="hdr">
+            <div class="logo">SizzLAI</div>
+            <button id="btn-theme" class="vintage-btn">Toggle Theme</button>
+        </header>
+        <main class="chat" id="chat"></main>
+        <div class="load" id="load" style="display: none;">typing...</div>
+        <footer class="inp-bar">
+            <input type="text" id="inp" placeholder="Type a message..." autocomplete="off">
+            <button id="btn-txt" class="vintage-btn">Send</button>
+            <button id="btn-img" class="vintage-btn">Generate Image</button>
+        </footer>
+    </div>
+    <script src="keys.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
